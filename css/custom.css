@@ -93,17 +93,121 @@ nav ul li a:hover{}
     object-position: right;
     object-fit: cover;
     border-radius: 5px;
-    box-shadow: 0 3px 8px #3333332e;
-    transition: all 0.5s ease;
-
+    box-shadow: 2px 1px 6px 3px #3333332e;
+    transition: all 0.5s cubic-bezier(0.4, 0, 1, 1);
 }
 .gallery-section img:hover{
     box-shadow: 0 0 0 #33333326;
 }
 
-h1{
+.gallery-section h1{
     padding: 9px 20px;
     font-size: 30px;
     text-align: center;
     color: #64af11;
 }
+
+
+.flower-field-gallery{
+    padding:50px 20px;
+}
+.flower-field-gallery h1{
+                          max-width: 50px;
+
+                             }
+.col-1-2{
+    width: 50%;
+    flex-basis: 50%;
+}
+.flower-field-gallery img{
+
+}
+.flower-field-gallery img:hover{}
+
+
+.col-1-2 h2{
+    font-size: 30px;
+    padding: 20px 20px;
+    color: #9f6025;
+    letter-spacing: 1px;
+}    
+ .col-1-2 p{
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #9f6025;
+    /* letter-spacing: 1px; */
+}
+
+.flower-field-gallery .container{}
+
+.flower-field-gallery .flex{
+    
+flex-wrap: wrap;
+    
+background: #fdfcfd;
+} 
+.portfolio-section{}
+.portfolio{
+    padding: 20px 0;
+    background: #fdfdfdeb
+}
+.portfolio ul{
+    list-style: none;
+} 
+.portfolio ul li{}
+.portfolio ul li a{
+    margin: 20px;
+    display: block;
+    /* list-style-image: url(../images/sun1.jpg); */
+    padding: 10px 0;
+    font-size: 20px;
+    color: green;
+}
+.portfolio ul:hover li
+ a{ opacity: 0.6;
+} 
+
+.portfolio ul li a:hover{
+    opacity:1;
+}
+
+.gallery-section img:hover{
+    transform: scale(1.06);}
+
+ 
+.video-section{
+    padding: 120px 0;}
+.video{}
+.video iframe{
+    box-shadow: 0 0 10px #33333326;
+    border-radius: 11px;
+}
+
+.second-gallery{
+    background: #fbf1f026;
+}
+.second-gallery h2 p{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
